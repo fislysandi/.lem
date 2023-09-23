@@ -1,0 +1,2 @@
+
+(:ISEARCH-PREVIOUS-STRING "" :COLOR-THEME "emacs-dark")
