@@ -27,8 +27,8 @@
 (define-key lem-vi-mode:*motion-keymap* "c-w s" 'split-active-window-horizontally)
 (define-key lem-lisp-mode:*lisp-mode-keymap* "c-c l s" 'lem-lisp-mode:start-lisp-repl)
 (define-key *global-keymap* "C-x t r" 'toggle-read-only)
-(define-key lem-vi-mode:*motion-keymap* "m-l" 'lem-paredit-mode:paredit-slurp)
-(define-key lem-vi-mode:*motion-keymap* "m-h" 'lem-paredit-mode:paredit-barf)
+(define-key lem-vi-mode:*motion-keymap* "m-c-l" 'lem-paredit-mode:paredit-slurp)
+(define-key lem-vi-mode:*motion-keymap* "m-c-h" 'lem-paredit-mode:paredit-barf)
 
 
 ;; vi mode stuff
